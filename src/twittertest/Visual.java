@@ -231,6 +231,7 @@ public class Visual extends javax.swing.JFrame {
         {
             lm.add(u,"<------ "+nomePessoas.get(i)+" ------>");
             u++;  
+            int controle = total;
             for(j=j;j<total;j++)
             {
                 try
@@ -241,8 +242,7 @@ public class Visual extends javax.swing.JFrame {
                 {
                 }
             }
-            j = total;
-            total+=total;
+            total+=controle;
             
         }
         Resultado.setModel(lm);
