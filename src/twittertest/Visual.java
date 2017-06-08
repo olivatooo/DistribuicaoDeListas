@@ -227,11 +227,12 @@ public class Visual extends javax.swing.JFrame {
         Collections.shuffle(nomeListas);
         int u=0;
         nomePessoas.add("Sobra");
+        int controle = total;
         for(int i =0;i<nomePessoas.size();i++)
         {
             lm.add(u,"<------ "+nomePessoas.get(i)+" ------>");
             u++;  
-            int controle = total;
+            
             for(j=j;j<total;j++)
             {
                 try
